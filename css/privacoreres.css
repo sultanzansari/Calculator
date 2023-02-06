@@ -1,0 +1,287 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+@media (min-width:679px) and (max-width:1024px){
+    .main-nav{
+        height:200px;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar nav ul li{
+        display:inline-block;
+    }
+
+    .footer-1{
+        flex-direction:unset;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .footer-2{ 
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .form input{
+        display: inline-block;
+        width: 90%;
+    }
+
+    input[type="submit"]{
+        display: block;
+        max-width:45%;
+    }
+
+    .footer-logo,.follow-us,.sign-up{
+        max-width:280px;
+    }
+
+    .sign-up h2, .follow-us h2{
+        margin-top: 0px;
+    }
+
+    .left-body{
+        max-width:max-content;
+    }
+
+    .h-1-image img{
+        margin:0 auto;
+    }
+
+    .h-5-box{
+        max-height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-5-image, .h-5-para{
+        width:47%;
+    }
+
+    .h-6{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h-4-box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .h-4-para-1{
+        margin:0;
+        width:44%;
+    }
+
+    .h-4-para-1 p{
+        margin:0;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+    .main-nav{ 
+    min-width: 1025px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+    .nav-bar nav ul li{
+        display:inline-block;
+    }
+
+    .footer-1{
+        flex-direction:unset;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .footer-2{ 
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer-logo,.follow-us,.sign-up{
+        max-width:330px;
+    }
+
+    .form input{
+        display: inline-block;
+        width: 90%;
+    }
+
+    input[type="submit"]{
+        display: block;
+        max-width:40%;
+    }
+
+    .sign-up h2, .follow-us h2{
+        margin-top: 0px;
+    }
+
+    .left-body{
+        max-width:max-content;
+    }
+
+    .h-1-image img{
+        margin:0 auto;
+    }
+
+    .h-5-box{
+        max-height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-5-image, .h-5-para{
+        width:47%;
+    }
+
+    .h-6{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .h-4-box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .h-4-para-1{
+        margin:0;
+        width:44%;
+    }
+
+    .h-4-para-1 p{
+        margin:0;
+    }
+}
+
+@media (min-width:1201px){
+    .main-nav{
+        width:1140px;
+        height:150px;
+        box-sizing: border-box;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-bar nav ul li{
+        display:inline-block;
+    }
+
+    .footer-1{
+        width: 1140px;
+        padding:10px 0px;
+        box-sizing: border-box;
+        flex-direction:unset;
+        justify-content:space-between;
+        align-items: flex-start;
+    }
+
+    .footer-2{ 
+        width: 1140px;
+        box-sizing: border-box;
+        margin:0 auto;
+        flex-direction: row;
+    }
+
+    .footer-logo,.follow-us,.sign-up{
+        text-align: unset;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-logo{
+        width:370px;
+    }
+    
+    .sign-up{
+        max-width:330px;
+    }
+
+    .follow-us{
+        width:390px;
+    }
+
+    .form input{
+        display: inline-block;
+        width: 90%;
+    }
+
+    input[type="submit"]{
+        display: block;
+        max-width:40%;
+        transform: translateX(50%);
+    }
+
+    .sign-up h2, .follow-us h2{
+        margin-top: 0px;
+    }
+
+    .terms{
+        font-size: 16px;
+    }
+
+    .rights{
+        width:600px;
+        font-size: 14px;
+    }
+
+    .main-body-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-body{
+        text-align: left;
+    }
+
+    .right-body{
+        text-align: left;
+    }
+
+    .h-5-box{
+        max-height: 330px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .h-5-image, .h-5-para{
+        width:47%;
+    }
+
+    .h-6{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h-4-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .h-4-para-1{
+        margin:0;
+        width:44%;
+    }
+
+    .h-4-para-1 p{
+        margin:0;
+    }
+}
